@@ -11,7 +11,7 @@
             <ul>
                 <li v-for="(email, index) in emails" 
                 :key="index"
-                v-if="elencoEmail.length > 9"
+                v-if="emails.length > 9"
                 >{{email}}</li>
             </ul>
         </div>
@@ -22,5 +22,5 @@
         <!-- JS -->
         <script src="js/script.js"></script> 
     </body>
-    
+
 </html>
